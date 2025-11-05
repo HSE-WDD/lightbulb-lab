@@ -12,8 +12,8 @@ Using this Starter Repository and VSCode.dev edit the main.js file to allow for 
   * the image will change sources to the "off.png" image.
   * the background of the division that holds the image will change to the `--dark-clr` CSS variable
 
-You will need to add any additional functions and variables to make your program work.
-Just like our other programs when you use a variable to grab an HTML input you can use it's value property, with images you can change or set it's src property
+You will need to add any additional variables and code to make your program work.
+Just like our other programs when you use a variable to grab an HTML input you can use it's value attribute, with images you can change or set it's src attribute
 ```javascript
 image.src = 'cat.png'
 ```
