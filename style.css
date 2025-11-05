@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Story+Script&display=swap');
+
+:root{
+    --dark-clr: #1A1D21;
+    --light-clr: #f8eab2;
+    --border-clr: #3d444d;
+    --bg-clr: #E8ECEF;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+body{
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 3rem;
+}
+h1{
+    width: max-content;
+    text-align: center;
+    font-family: "Story Script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-inline: auto;
+    font-size: 2.5rem;
+
+}
+button{
+    padding:15px;
+    margin:20px;
+    width:100px;
+}
+
+.buttons{
+    display: flex;
+    column-gap: 20px;
+}
+#light-box{
+    width:400px;
+    background-color: var(--bg-clr);
+    border:5px solid var(--border-clr);
+    padding:4rem 3rem;
+    border-radius: 12px;
+
+}
+img{
+    display: block;
+    max-width: 100%;
+    max-height: 400px;
+    margin: auto;
+    object-fit: contain;
+}
+div{
+    text-align:center;
+    width:300px;
+    margin: auto;
+}
