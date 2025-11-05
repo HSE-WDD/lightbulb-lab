@@ -16,7 +16,7 @@ body{
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    padding-top: 3rem;
+    padding-top: 1.5rem;
 }
 h1{
     width: 65vw;
@@ -25,6 +25,7 @@ h1{
     font-family: "Story Script", sans-serif;
     font-weight: 400;
     font-style: normal;
+    margin-bottom: 20px;
     margin-inline: auto;
     font-size: 2.5rem;
 
