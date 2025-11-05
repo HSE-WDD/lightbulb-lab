@@ -22,3 +22,4 @@ To change the background color you update the style property of the element
 output.style.backgroundColor = 'red';
 ```
 
+## You DO NOT need to change the index.html or the style.css files. Only edit the main.js file.
